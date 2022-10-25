@@ -1,0 +1,60 @@
+Split this string 
+[1] str="Hi how are you" 
+print(str.split() 
+['Hi', 'how', 'are', 'you'] 
+Use .format() to print the following string bold text 
+planet = "Earth" diameter = 12742 a="The diameter of {planet}is{diameter}kilometers" print(a.format(planet="Earth", diameter = 12742)) 
+> 
+The diameter of Earthis12742kilometer
+In this nest dictionary grab the word "hello" 
+[3] d = {'kl":[1,2,3,{"tricky': ['oh', 'man', 'inception', {'target': 
+[1,2,3, 'hello']}]}]} print(d) 
+{"kl": [1, 2, 3, {'tricky': ['oh', 'man', 'inception', {'target': [1, 2, 3, 'hello']}]}]} 
+KI 
+3, 
+'tricky'. I 
+ICKY :Ioh. man' 
+On' Ji 
+! 1 
+gel. 
+"hel 
+Numpy 
+1 Create an array of 10 zeros? 
+[4] 
+import numpy as np b=np.zeros(10) *0 print(b) 
+[e. 0..0.. e. e. 9. e. 8.] 
+- 4.2 Create an array of 10 fives? 
+[5] 
+b=np.ones (10)*5. print(b) [5. 5. 5. 5. 5. 5. 5. 5. 5. 5.] 
+Create an array of all the even integers from 20 to 35 
+[6] ar=np.arange(20,35,2) 
+print(ar) 
+[20 22 24 26 28 30 32 34] 
+Create a 3x3 matrix with values ranging from 0 to 8 
+[7] a=np.arange(0,9).reshape (3,3) 
+print(a) 
+[[0 1 2] 
+(3 4 5] [6 7 8]] 
+Concatenate a and b 
+[8] arri=np.array([1,2,3]) 
+arr2=np.array([4,5,6]) arr=np.concatenate((arri, arr2)) print(arr) 
+[1 2 3 4 5 6] 
+Pandas 
+Create a dataframe with 3 rows and 2 columns 
+[9] import pandas as pd 
+data=[{'a':12, 'b':45}, {'a':54, 'b':23}, {'a':94, 'b':76}] df=pd.DataFrame(data) print(df) 
+... 0 1 2 
+a b 12 45 54 23 94 76 
+Generate the series of dates from 1st Jan, 2023 to 10th Feb, 2023 
+[10] a=pd.date_range (start='1/1/2023', end='10/2/2023') 
+print(a) 
+DatetimeIndex(['2023-01-01', '2023-01-02', '2023-01-03', '2023-61-64', 
+'2023-01-05', '2023-01-06', '2023-01-07', '2023-01-08', '2023-01-89', '2023-01-10', 
+2023-09-23', '2023-89-24', '2023-09-25', '2023-09-26', '2023-69-27', '2023-69-28', '2023-09-29', '2023-69-30', 
+2023-10-01', '2023-10-02'], dtype='datetime 64[ns]', length=275, freq='D') 
+10. Create 2D list to DataFrame 
+[11] 1st=[[1, 'aaa',22],[2, 'bbb,25'],[3,'ccc',24]] 
+df=pd. DataFrame(1st) print(df) 
+0 1 1 2 23 
+1 2 aaa 22.0 bbb, 25 NaN 
+ccc 24.0 
